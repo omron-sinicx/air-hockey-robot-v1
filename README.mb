@@ -17,14 +17,14 @@ Install and setup `ros2`.
 ### Build
 
 ```console
-colcon build
+$ colcon build
 ```
 
 ### Setup
 Before running codes, setup as  
 
 ```console
-. install/setup.bash
+$ . install/setup.bash
 ```
 
 ### Run
@@ -52,6 +52,7 @@ $ python3 src/air_hockey_robot_py/air_hockey_robot_py/motor_communication.py
 $ python3 src/air_hockey_robot_py/air_hockey_robot_py/arm_motion_planner.py 
 ```
 
+### TIPS
 #### Motion generation type (hit back motion, block motion, random motion, ...)
 Change `self.mode` in `arm_motion_planner.py`.
 
@@ -63,7 +64,7 @@ Get and edit `PUCK_KX_F, `PUCK_KY_F`, ..., `PUCK_K_W, `HUMAN_KX_F, `HUMAN_KY_F`,
 
 Parameters can be loaded making and using `ros2 param` files.
 
-### Motor communication debug
+#### Motor communication debug
 
 Send commands as 
 ```
