@@ -73,7 +73,7 @@ $ ros2 topic pub --once /motor_commands air_hockey_robot/msg/MotorCommands "{goa
 
 ## Hardware
 
-`step` design files in `cad`.
+`.stp` design files in `cad`.
 
 
 ## Citation
