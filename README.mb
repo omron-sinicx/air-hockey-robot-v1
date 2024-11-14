@@ -23,8 +23,8 @@ $ colcon build
 ### Setup
 Before running codes, setup as  
 
-```console
-$ . install/setup.bash
+```
+. install/setup.bash
 ```
 
 ### Run
@@ -33,23 +33,23 @@ Open *multiple* terminals.
 Run following commands in *each* terminal. 
 These node can be used simultaneously making and using `ros2 launch` files.  
 
-```console
-$ ros2 run air_hockey_robot camera_driver 
 ```
-```console
-$ ros2 run air_hockey_robot object_detector 
+ros2 run air_hockey_robot camera_driver 
 ```
-```console
-$ ros2 run air_hockey_robot velocity_estimator 
 ```
-```console
-$ ros2 run air_hockey_robot object_predictor 
+ros2 run air_hockey_robot object_detector 
 ```
-```console
-$ python3 src/air_hockey_robot_py/air_hockey_robot_py/motor_communication.py 
 ```
-```console
-$ python3 src/air_hockey_robot_py/air_hockey_robot_py/arm_motion_planner.py 
+ros2 run air_hockey_robot velocity_estimator 
+```
+```
+ros2 run air_hockey_robot object_predictor 
+```
+```
+python3 src/air_hockey_robot_py/air_hockey_robot_py/motor_communication.py 
+```
+```
+python3 src/air_hockey_robot_py/air_hockey_robot_py/arm_motion_planner.py 
 ```
 
 ### TIPS
