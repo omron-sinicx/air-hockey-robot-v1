@@ -60,7 +60,7 @@ Change `self.mode` in `arm_motion_planner.py`.
 Get and edit `CAMERA_MATRIX` and `DISTORTION_COEFFICIENTS` in `air_hockey_robot_config.hpp`.
 
 ### Camera and robot coordinate convertion
-Get and edit `PUCK_KX_F, `PUCK_KY_F`, ..., `PUCK_K_W, `HUMAN_KX_F, `HUMAN_KY_F`, ..., `HUMAN_K_W in `air_hockey_robot_config.hpp`. 
+Get and edit `PUCK_KX_F`, `PUCK_KY_F`, ..., `PUCK_K_W`, `HUMAN_KX_F`, `HUMAN_KY_F`, ..., `HUMAN_K_W` in `air_hockey_robot_config.hpp`. 
 
 Parameters can be loaded making and using `ros2 param` files.
 
