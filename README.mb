@@ -16,8 +16,8 @@ Install and setup `ros2`.
 
 ### Build
 
-```console
-$ colcon build
+```
+colcon build
 ```
 
 ### Setup
