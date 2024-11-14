@@ -1,0 +1,5 @@
+uint32 goal_position_id1
+uint32 goal_position_id2
+uint16 goal_speed_id1
+uint16 goal_speed_id2
+std_msgs/Header header

@@ -1,0 +1,35 @@
+[0.017s] Invoking command in '/home/osx/Documents/air-hockey-robot/src/build/air_hockey_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osx/Documents/air-hockey-robot/install/air_hockey_robot_py:/opt/ros/humble /usr/bin/cmake /home/osx/Documents/air-hockey-robot/src/air_hockey_robot -DCMAKE_INSTALL_PREFIX=/home/osx/Documents/air-hockey-robot/src/install/air_hockey_robot
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.154s] -- The CXX compiler identification is GNU 11.4.0
+[0.161s] -- Detecting C compiler ABI info
+[0.242s] -- Detecting C compiler ABI info - done
+[0.248s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.249s] -- Detecting C compile features - done
+[0.251s] -- Detecting CXX compiler ABI info
+[0.342s] -- Detecting CXX compiler ABI info - done
+[0.348s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.349s] -- Detecting CXX compile features
+[0.349s] -- Detecting CXX compile features - done
+[0.350s] [0mClang: yes[0m
+[0.351s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.510s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.579s] Traceback (most recent call last):
+[0.579s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.579s]     from ament_package.templates import get_environment_hook_template_path
+[0.579s] ModuleNotFoundError: No module named 'ament_package'
+[0.588s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.588s]   execute_process(/usr/bin/python3.10
+[0.588s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.588s]   /home/osx/Documents/air-hockey-robot/src/build/air_hockey_robot/ament_cmake_package_templates/templates.cmake)
+[0.588s]   returned error code 1
+[0.588s] Call Stack (most recent call first):
+[0.588s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.588s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.588s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.588s]   CMakeLists.txt:13 (find_package)
+[0.588s] 
+[0.588s] [0m
+[0.588s] -- Configuring incomplete, errors occurred!
+[0.588s] See also "/home/osx/Documents/air-hockey-robot/src/build/air_hockey_robot/CMakeFiles/CMakeOutput.log".
+[0.592s] Invoked command in '/home/osx/Documents/air-hockey-robot/src/build/air_hockey_robot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osx/Documents/air-hockey-robot/install/air_hockey_robot_py:/opt/ros/humble /usr/bin/cmake /home/osx/Documents/air-hockey-robot/src/air_hockey_robot -DCMAKE_INSTALL_PREFIX=/home/osx/Documents/air-hockey-robot/src/install/air_hockey_robot

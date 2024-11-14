@@ -1,0 +1,11 @@
+float64 target_xmm
+float64 target_ymm
+float64 waypoint_xmm
+float64 waypoint_ymm
+bool waypoint_enabled
+float64 estimated_puck_arrival_time
+std_msgs/Header header
+---
+bool success
+---
+bool waiting

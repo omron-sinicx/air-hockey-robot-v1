@@ -1,0 +1,10 @@
+uint32 goal_position_id1
+uint32 goal_position_id2
+uint32 way_position_id1
+uint32 way_position_id2
+uint16 speed_goal_id1
+uint16 speed_goal_id2
+uint16 speed_way_id1
+uint16 speed_way_id2
+builtin_interfaces/Time time
+std_msgs/Header header

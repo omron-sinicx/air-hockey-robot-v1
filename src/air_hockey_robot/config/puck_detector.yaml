@@ -1,0 +1,8 @@
+puck_detector:
+  hsv_parameters:
+    H_max: 180
+    H_min: 140
+    S_max: 255
+    S_min: 150
+    V_max: 255
+    V_min: 20
