@@ -36,18 +36,23 @@ These node can be used simultaneously making and using `ros2 launch` files.
 ```
 ros2 run air_hockey_robot camera_driver 
 ```
+
 ```
 ros2 run air_hockey_robot object_detector 
 ```
+
 ```
 ros2 run air_hockey_robot velocity_estimator 
 ```
+
 ```
 ros2 run air_hockey_robot object_predictor 
 ```
+
 ```
 python3 src/air_hockey_robot_py/air_hockey_robot_py/motor_communication.py 
 ```
+
 ```
 python3 src/air_hockey_robot_py/air_hockey_robot_py/arm_motion_planner.py 
 ```
@@ -67,6 +72,7 @@ Parameters can be loaded making and using `ros2 param` files.
 #### Motor communication debug
 
 Send commands as 
+
 ```
 $ ros2 topic pub --once /motor_commands air_hockey_robot/msg/MotorCommands "{goal_position_id1: 2600, goal_position_id2: 2600, goal_speed_id1: 0, goal_speed_id2: 0, header:{stamp: {sec: 0, nanosec: 0}, frame_id: 0}}"
 ```
@@ -78,6 +84,7 @@ $ ros2 topic pub --once /motor_commands air_hockey_robot/msg/MotorCommands "{goa
 
 
 ## Citation
+
 ```
 @inproceedings{shinjo2024low,
     title={Low-Cost Air Hockey Robot Using a Five-Bar Linkage Mechanism Driven by Position-Control Servomotors},
